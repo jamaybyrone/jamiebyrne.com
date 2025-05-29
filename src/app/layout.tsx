@@ -1,7 +1,7 @@
-import { CookieBar } from '@/components/layout/cookie-bar'
+// import { CookieBar } from '@/components/layout/cookie-bar'
 import ThemeRegistry from '@/theme/ThemeRegistry'
 import Navigation from '@/components/layout/navigation'
-import { GoogleAnalytics } from '@next/third-parties/google'
+// import { GoogleAnalytics } from '@next/third-parties/google'
 import { ReactNode } from 'react'
 import { mainContent } from '@/shared/consts/html'
 
@@ -30,8 +30,8 @@ export default async function RootLayout({
           <main id={mainContent} tabIndex={0}>
             {children}
           </main>
-          <CookieBar />
-          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+          {/*<CookieBar />*/}
+          {/*<GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />*/}
           <RichBreadCrumbs ScriptWrap={Script} />
         </body>
       </html>
