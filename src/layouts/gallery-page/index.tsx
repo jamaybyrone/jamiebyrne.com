@@ -1,9 +1,9 @@
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
-import Grid from '@mui/material/Grid'
 import { imageType } from '@/shared/types'
 import { galleryPageStyle } from './style'
 import Gallery from '@/components/gallery'
+import Box from '@mui/material/Box'
 
 interface GalleryPageProp {
   image: string
@@ -42,6 +42,7 @@ const Layout = ({
           ...galleryPageStyle.container,
           ...extraStyle
         }}
+        aria-labelledby={sectionId}
       >
         <Typography
           variant="h1"
@@ -58,15 +59,20 @@ const Layout = ({
           {title}
         </Typography>
       </Container>
-      <Container maxWidth="md" component="section" aria-labelledby={sectionId}>
-        <Grid container spacing={2} maxWidth="md" mb={2} mt={2}>
-          <Grid size={{ xs: 12 }}>
-            <Typography variant="body1" color="secondary">
-              {body}
-            </Typography>
-          </Grid>
-        </Grid>
-      </Container>
+
+      <Box
+        component="section"
+        sx={{ maxWidth: '800px', margin: '2em auto' }}
+        p={2}
+      >
+        <Typography
+          variant="body1"
+          color="secondary"
+          sx={{ textAlign: 'center' }}
+        >
+          {body}
+        </Typography>
+      </Box>
       <Container
         maxWidth="lg"
         component="section"

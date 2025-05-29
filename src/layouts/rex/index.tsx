@@ -87,7 +87,7 @@ export const Layout = () => {
           />
         </Grid>
 
-        <Grid size={{ md: 8 }} component='article'>
+        <Grid size={{ md: 8 }} component="article">
           <Typography variant="body1" color="secondary" mb={2}>
             We returned to my hometown and decided to take him to the park.
             That’s when we discovered he needed to be muzzled — he tried to
