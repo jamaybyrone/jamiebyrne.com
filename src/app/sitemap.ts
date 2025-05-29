@@ -1,22 +1,22 @@
 import { MetadataRoute } from 'next'
-import { HTTPS_WWW_MAIN_DOMAIN, WWW_MAIN_DOMAIN } from '@/shared/consts/url'
-const { VERCEL_ACCESS_TOKEN } = process.env
-async function getLastDeploy(): Promise<Date> {
-  const result = await fetch(
-    'https://api.vercel.com/v13/deployments/' + WWW_MAIN_DOMAIN,
-    {
-      next: { revalidate: 3600 },
-      method: 'GET',
-      headers: {
-        Authorization: `Bearer ${VERCEL_ACCESS_TOKEN}`
-      }
-    }
-  )
-
-  const { ready } = await result.json()
-
-  return new Date(ready)
-}
+import { HTTPS_WWW_MAIN_DOMAIN } from '@/shared/consts/url'
+// const { VERCEL_ACCESS_TOKEN } = process.env
+// async function getLastDeploy(): Promise<Date> {
+//   const result = await fetch(
+//     'https://api.vercel.com/v13/deployments/' + WWW_MAIN_DOMAIN,
+//     {
+//       next: { revalidate: 3600 },
+//       method: 'GET',
+//       headers: {
+//         Authorization: `Bearer ${VERCEL_ACCESS_TOKEN}`
+//       }
+//     }
+//   )
+//
+//   const { ready } = await result.json()
+//   console.log(ready)
+//   return new Date(ready)
+// }
 
 function MainSitePages(lastBuild: Date): MetadataRoute.Sitemap {
   return [
@@ -65,6 +65,7 @@ function GalleryPages(lastBuild: Date): MetadataRoute.Sitemap {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const lastDeployed = await getLastDeploy()
-  return [...MainSitePages(lastDeployed), ...GalleryPages(lastDeployed)]
+  // const lastDeployed = await getLastDeploy() // sitemap is now static at build time. so its now?
+  const currentDate = new Date()
+  return [...MainSitePages(currentDate), ...GalleryPages(currentDate)]
 }
