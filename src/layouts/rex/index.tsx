@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid'
 export const Layout = () => {
   return (
     <Container maxWidth="xl" component="section" aria-labelledby="main-title">
-      <Grid container spacing={2} maxWidth="xl" mt={2} component="article">
+      <Grid container spacing={2} maxWidth="xl" mt={2}>
         <Grid size={{ xs: 12 }}>
           <Typography component="h1" variant="h2" mb={3} id="main-title">
             The story of Rex
@@ -24,7 +24,7 @@ export const Layout = () => {
           />
         </Grid>
 
-        <Grid size={{ md: 8 }}>
+        <Grid size={{ md: 8 }} component="article">
           <Typography variant="body1" color="secondary" mb={2}>
             This began in early 2010. My roommate had moved out. The area I
             lived in wasn’t the greatest, and I felt a little vulnerable —
@@ -87,7 +87,7 @@ export const Layout = () => {
           />
         </Grid>
 
-        <Grid size={{ md: 8 }}>
+        <Grid size={{ md: 8 }} component='article'>
           <Typography variant="body1" color="secondary" mb={2}>
             We returned to my hometown and decided to take him to the park.
             That’s when we discovered he needed to be muzzled — he tried to
