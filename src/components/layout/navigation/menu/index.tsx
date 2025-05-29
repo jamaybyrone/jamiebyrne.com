@@ -58,7 +58,7 @@ const MenuLink = ({
       page={page}
       current={current}
       isMobile={isMobile}
-      onClick={!isGallery && !isMobile ? handleCloseNavMenu : undefined}
+      onClick={isGallery || isMobile ? handleCloseNavMenu : undefined}
     />
   )
 }
