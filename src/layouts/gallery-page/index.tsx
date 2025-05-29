@@ -5,7 +5,6 @@ import { imageType } from '@/shared/types'
 import { galleryPageStyle } from './style'
 import Gallery from '@/components/gallery'
 
-
 interface GalleryPageProp {
   image: string
   title: string
@@ -23,7 +22,7 @@ const Layout = ({
   extraStyle,
   dark
 }: GalleryPageProp) => {
-const sectionId = 'gallery-title'
+  const sectionId = 'gallery-title'
 
   return (
     <>
@@ -32,7 +31,10 @@ const sectionId = 'gallery-title'
         maxWidth={false}
         disableGutters
         sx={{
-          backgroundImage: {xs: `url(/images/backgrounds/${image.replace('.avif', '-min.avif')})`, md: `url(/images/backgrounds/${image})`},
+          backgroundImage: {
+            xs: `url(/images/backgrounds/${image.replace('.avif', '-min.avif')})`,
+            md: `url(/images/backgrounds/${image})`
+          },
           height: {
             xs: '300px',
             md: '500px'

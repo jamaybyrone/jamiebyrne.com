@@ -21,11 +21,7 @@ export function ImageGridItem({
   // const height = orientation === 'landscape' ? 228 : 352
 
   return (
-    <Grid
-      size={{ xs: 12, md }}
-      sx={{ textAlign: 'center' }}
-      key={`grid-${id}`}
-    >
+    <Grid size={{ xs: 12, md }} sx={{ textAlign: 'center' }} key={`grid-${id}`}>
       <Link
         component="button"
         onClick={() => handleClick(index)}

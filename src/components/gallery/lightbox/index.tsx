@@ -48,7 +48,6 @@ export default function Items({ data }: Readonly<ItemsProps>) {
         onClose={() => setOpen(false)}
         onPrev={() => setCurrentImage((prev) => prev - 1)}
         onNext={() => setCurrentImage((prev) => prev + 1)}
-
       />
       <ImageGrid
         data={data}

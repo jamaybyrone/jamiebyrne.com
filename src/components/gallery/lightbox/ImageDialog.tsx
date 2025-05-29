@@ -1,4 +1,10 @@
-import { Box, Container, IconButton, IconButtonPropsSizeOverrides, Modal } from '@mui/material'
+import {
+  Box,
+  Container,
+  IconButton,
+  IconButtonPropsSizeOverrides,
+  Modal
+} from '@mui/material'
 import Image from 'next/image'
 import { imageType } from '@/shared/types'
 import { galleryStyle } from '@/components/gallery/style'
@@ -21,7 +27,6 @@ interface ImageDialogProps {
   onClose: () => void
   onPrev: () => void
   onNext: () => void
-
 }
 
 export function ImageDialog({
@@ -32,13 +37,15 @@ export function ImageDialog({
   onClose,
   onPrev,
   onNext
-
 }: Readonly<ImageDialogProps>) {
   const theme = useTheme()
   const matchesSM = useIsMobile()
   const matchesLGUP = useMediaQuery(theme.breakpoints.up('lg'))
 
-  const size: OverridableStringUnion<'small' | 'medium' | 'large', IconButtonPropsSizeOverrides> = matchesSM ? 'small' : 'large'
+  const size: OverridableStringUnion<
+    'small' | 'medium' | 'large',
+    IconButtonPropsSizeOverrides
+  > = matchesSM ? 'small' : 'large'
   const itemStyle = styles(matchesSM)
 
   return (

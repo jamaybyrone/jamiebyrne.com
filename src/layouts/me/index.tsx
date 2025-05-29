@@ -1,41 +1,40 @@
-'use client'
-
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
 import { AboutCard } from '@/layouts/home/component/about-card'
-import { useId } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export const Layout = () => {
-  const mainSectionId = useId()
-  const meSectionId = useId()
   return (
     <>
       <Container
-        maxWidth="lg"
+        maxWidth="xl"
         component="section"
-        aria-labelledby={mainSectionId}
+        sx={{ mt: 6 }}
+        aria-labelledby="main-section"
       >
-        <Typography variant="h1" color="secondary" id={mainSectionId} mt={2}>
-          Me
-        </Typography>
-
-        <Grid
-          container
-          spacing={2}
-          maxWidth="md"
-          mt={2}
-          component="section"
-          aria-labelledby={meSectionId}
-        >
+        <Grid container spacing={2}>
           <Grid size={{ xs: 12 }}>
-            <Typography variant="h2" mb={3} id={meSectionId}>
+            <Typography
+              variant="h1"
+              color="secondary"
+              id={'main-section'}
+              mt={2}
+            >
+              About Me
+            </Typography>
+          </Grid>
+          <Grid size={{ xs: 12 }}>
+            <Typography variant="h2" mb={3} id={'photography-section'}>
               Photography
             </Typography>
           </Grid>
-          <Grid size={{ md: 8 }} component="article">
+          <Grid
+            size={{ md: 8 }}
+            component="article"
+            aria-labelledby={'photography-section'}
+          >
             <AboutCard />
           </Grid>
           <Grid size={{ md: 4 }} sx={{ textAlign: 'center' }}>
@@ -44,31 +43,31 @@ export const Layout = () => {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '500px', height: 'auto' }}
+              style={{ width: '100%', height: 'auto', maxWidth: '500px' }}
               alt={'Me'}
               quality={100}
             />
           </Grid>
         </Grid>
       </Container>
-
       <Container
         maxWidth="xl"
         component="section"
         sx={{ mt: 6 }}
-        aria-labelledby="about-title"
+        aria-labelledby="pause-section"
       >
-        <Typography
-          variant="h2"
-          id="about-title"
-          gutterBottom
-          color="secondary"
-        >
-          A Creative Pause: Where I’ve Been and What’s Coming Next
-        </Typography>
-
         <Grid container spacing={2}>
           <Grid size={{ xs: 12 }}>
+            <Typography
+              variant="h2"
+              id="pause-section"
+              gutterBottom
+              color="secondary"
+            >
+              A Creative Pause: Where I’ve Been and What’s Coming Next
+            </Typography>
+          </Grid>
+          <Grid size={{ xs: 12 }} component="article">
             <Typography variant="body1" color="secondary">
               Photography has always been a huge part of how I connect with the
               world — finding beauty in light, shadow, and the quiet in-between
@@ -105,8 +104,8 @@ export const Layout = () => {
 
             <Typography variant="body1" color="secondary" mt={2}>
               I also own a professional printer and have plans to make a curated
-              selection of my prints available to purchase. I have a version of this website, in a branch which
-              has been built using{' '}
+              selection of my prints available to purchase. I have a version of
+              this website, in a branch which has been built using{' '}
               <Link
                 href={'https://medusajs.com/'}
                 target={'_blank'}
