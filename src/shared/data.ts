@@ -94,106 +94,106 @@ export const CVData = {
         'I utilised a range of technologies, including JSP, Java, ANT, Maven, Velocity, Bootstrap, JavaScript, jQuery, HTML, and LESS, to develop responsive and user-friendly interfaces. For version control, I worked with Gerrit as the SVN, while Jenkins was used for managing CI/CD pipelines, and Nexus Repository was employed for artifact management. Additionally, I implemented Selenium for automated testing, ensuring the quality and reliability of the application throughout the development lifecycle.' +
         '\n' +
         'This role allowed me to gain hands-on experience in full-stack development, automation, deployment workflows, and artifact management in a dynamic and collaborative environment.'
-    },
-    {
-      company: 'Convergys Intelligent Contact',
-      role: 'Script Developer',
-      startDate: 'Sep - 2013',
-      endDate: 'Sep - 2014',
-      description:
-        'In September 2013, I was relocated to the UK Head Office to join the Script Team as a Script Developer.' +
-        '\n' +
-        'My primary responsibilities included:' +
-        '\n' +
-        'Developing web scripts for various insurer dialer systems, including Amcat, IC Dial, and Vicidial Using technologies such as HTML, CSS, JavaScript, and PHP to create and optimize scripts.' +
-        '\n' +
-        'Managing content for some of the company’s external websites to ensure consistency and accuracy Developing third-party applications to provide tailored solutions when specific requirements could not be addressed directly through the dialler systems.' +
-        '\n' +
-        'This role further expanded my technical expertise, particularly in web scripting and application development, and allowed me to contribute to both internal and external-facing projects within the organization.'
-    },
-    {
-      company: 'Convergys Intelligent Contact',
-      role: 'Sharepoint Developer',
-      startDate: 'June - 2012',
-      endDate: 'Sep - 2013',
-      description:
-        'In September 2012, due to my technical background, I was requested by the General Manager to transition from my role on the phones to focus on developing the company’s internal site using Microsoft SharePoint.' +
-        '\n' +
-        'My responsibilities included:' +
-        '\n' +
-        'Content management and organization within the SharePoint platform. Developing the SharePoint front end using technologies such as jQuery, Java, HTML, CSS, and XML. Installing and configuring web parts to enhance functionality and user experience. Overseeing the overall content management for the intranet.' +
-        '\n' +
-        'After successfully completing the intranet for our site, I was entrusted with the responsibility of developing two additional intranets for other sites and managing the overall project. This opportunity allowed me to refine my project management, development, and collaboration skills while delivering impactful solutions for the organization.'
-    },
-    {
-      company: 'Convergys Intelligent Contact',
-      role: 'Sales Assistant',
-      startDate: 'Jan - 2012',
-      endDate: 'June - 2012',
-      description:
-        'Due to redundancy from Tailored Software, I took the first job I could get which was at a company called LBM Marketing which eventually became Convergys Intelligent Contact (also called Stream at one point).' +
-        '\n' +
-        'I was employed by LBM Direct Marketing (now Convergys) as a Sales Assistant on the More Than Home Insurance campaign.' +
-        '\n' +
-        'My primary responsibility was selling home insurance over the phone, which involved:' +
-        '\n' +
-        'Engaging with customers to understand their needs and recommending suitable insurance products. Effectively communicating the features and benefits of the policies to drive sales. Handling objections and providing tailored solutions to ensure customer satisfaction.' +
-        '\n' +
-        'This role enhanced my communication and persuasion skills, taught me the importance of active listening, and helped me thrive in a target-driven environment.'
-    },
-    {
-      company: 'Tailored Software Ltd',
-      role: 'Junior Software Tester/Developer',
-      startDate: 'Jan - 2009',
-      endDate: 'July - 2011',
-      description:
-        'I was employed by as a Junior Software Tester/Developer, where I gained invaluable hands-on experience in software development and testing.' +
-        '\n' +
-        'My responsibilities included:' +
-        '\n' +
-        'Testing PDA software and applications developed for Windows machines.' +
-        '\n' +
-        'Working extensively with the 4D programming language, a cross-platform language compatible with both Mac and Windows environments.' +
-        '\n' +
-        'Learning and applying both front-end and back-end development skills.' +
-        '\n' +
-        'This role provided me with a comprehensive understanding of the entire software development process, from initial planning and design to implementation, testing, and deployment. I also developed a strong foundation in object-oriented programming, database structures, and the principles of software engineering.' +
-        '\n' +
-        'Additionally, I independently developed an AR (Augmented Reality) application using ActionScript 3 (AS3), where I designed and produced the 3D models, demonstrating my ability to merge technical and creative skills effectively.'
-    },
-    {
-      company: 'The Site Supply Company',
-      role: 'Graphic Designer',
-      startDate: 'Apr - 2008',
-      endDate: 'Nov - 2008',
-      description:
-        'I was employed at The Site Supply Company as a Graphic Designer, where I played a key role in supporting the company’s creative, production, and occasional technical needs.' +
-        '\n' +
-        'My responsibilities included:' +
-        '\n' +
-        'Designing and preparing proofs for customer approval.\n' +
-        'Creating or recreating artwork tailored to client specifications for use by the in-house printing department. Developing company promotional materials, including CD covers, posters, and other marketing assets Assisting with small IT tasks, such as troubleshooting minor technical issues and providing basic support to colleagues.' +
-        '\n' +
-        'This role required a strong eye for detail, effective communication with clients, and the ability to manage multiple design projects while providing occasional technical support in a fast-paced environment.'
-    },
-    {
-      company: 'MSL Legal Expenses Ltd',
-      role: 'Office Junior',
-      startDate: 'Nov - 2006',
-      endDate: 'March - 2008',
-      description:
-        'I began my career at MSL Legal Expenses as the Office Junior in the In-House Department.\n' +
-        'During this time, I identified opportunities to improve efficiency and took the initiative to create macros and develop automated software that streamlined the scanning and filing processes. This innovation significantly reduced manual workloads and improved overall accuracy.' +
-        '\n' +
-        'My responsibilities included:' +
-        '\n' +
-        'Filing, scanning, copying, and faxing documents.\n' +
-        'Conducting file traces and file preparation.\n' +
-        'Communicating with brokers and third-party insurers to locate and trace references.\n' +
-        'I was later promoted to the role of Claims Technician, where I took on more advanced responsibilities, including:' +
-        '\n' +
-        'Recovering back-hire funds from insurance companies. Requesting and gathering information from clients, third-party insurers, and witnesses. Drafting and sending professional correspondence via letters, faxes, and emails. Managing a high volume of phone communications to support case resolutions. This progression reflects my ability to adapt, innovate, and take ownership of tasks in a dynamic and fast-paced environment.'
     }
+    // {
+    //   company: 'Convergys Intelligent Contact',
+    //   role: 'Script Developer',
+    //   startDate: 'Sep - 2013',
+    //   endDate: 'Sep - 2014',
+    //   description:
+    //     'In September 2013, I was relocated to the UK Head Office to join the Script Team as a Script Developer.' +
+    //     '\n' +
+    //     'My primary responsibilities included:' +
+    //     '\n' +
+    //     'Developing web scripts for various insurer dialer systems, including Amcat, IC Dial, and Vicidial Using technologies such as HTML, CSS, JavaScript, and PHP to create and optimize scripts.' +
+    //     '\n' +
+    //     'Managing content for some of the company’s external websites to ensure consistency and accuracy Developing third-party applications to provide tailored solutions when specific requirements could not be addressed directly through the dialler systems.' +
+    //     '\n' +
+    //     'This role further expanded my technical expertise, particularly in web scripting and application development, and allowed me to contribute to both internal and external-facing projects within the organization.'
+    // },
+    // {
+    //   company: 'Convergys Intelligent Contact',
+    //   role: 'Sharepoint Developer',
+    //   startDate: 'June - 2012',
+    //   endDate: 'Sep - 2013',
+    //   description:
+    //     'In September 2012, due to my technical background, I was requested by the General Manager to transition from my role on the phones to focus on developing the company’s internal site using Microsoft SharePoint.' +
+    //     '\n' +
+    //     'My responsibilities included:' +
+    //     '\n' +
+    //     'Content management and organization within the SharePoint platform. Developing the SharePoint front end using technologies such as jQuery, Java, HTML, CSS, and XML. Installing and configuring web parts to enhance functionality and user experience. Overseeing the overall content management for the intranet.' +
+    //     '\n' +
+    //     'After successfully completing the intranet for our site, I was entrusted with the responsibility of developing two additional intranets for other sites and managing the overall project. This opportunity allowed me to refine my project management, development, and collaboration skills while delivering impactful solutions for the organization.'
+    // },
+    // {
+    //   company: 'Convergys Intelligent Contact',
+    //   role: 'Sales Assistant',
+    //   startDate: 'Jan - 2012',
+    //   endDate: 'June - 2012',
+    //   description:
+    //     'Due to redundancy from Tailored Software, I took the first job I could get which was at a company called LBM Marketing which eventually became Convergys Intelligent Contact (also called Stream at one point).' +
+    //     '\n' +
+    //     'I was employed by LBM Direct Marketing (now Convergys) as a Sales Assistant on the More Than Home Insurance campaign.' +
+    //     '\n' +
+    //     'My primary responsibility was selling home insurance over the phone, which involved:' +
+    //     '\n' +
+    //     'Engaging with customers to understand their needs and recommending suitable insurance products. Effectively communicating the features and benefits of the policies to drive sales. Handling objections and providing tailored solutions to ensure customer satisfaction.' +
+    //     '\n' +
+    //     'This role enhanced my communication and persuasion skills, taught me the importance of active listening, and helped me thrive in a target-driven environment.'
+    // },
+    // {
+    //   company: 'Tailored Software Ltd',
+    //   role: 'Junior Software Tester/Developer',
+    //   startDate: 'Jan - 2009',
+    //   endDate: 'July - 2011',
+    //   description:
+    //     'I was employed by as a Junior Software Tester/Developer, where I gained invaluable hands-on experience in software development and testing.' +
+    //     '\n' +
+    //     'My responsibilities included:' +
+    //     '\n' +
+    //     'Testing PDA software and applications developed for Windows machines.' +
+    //     '\n' +
+    //     'Working extensively with the 4D programming language, a cross-platform language compatible with both Mac and Windows environments.' +
+    //     '\n' +
+    //     'Learning and applying both front-end and back-end development skills.' +
+    //     '\n' +
+    //     'This role provided me with a comprehensive understanding of the entire software development process, from initial planning and design to implementation, testing, and deployment. I also developed a strong foundation in object-oriented programming, database structures, and the principles of software engineering.' +
+    //     '\n' +
+    //     'Additionally, I independently developed an AR (Augmented Reality) application using ActionScript 3 (AS3), where I designed and produced the 3D models, demonstrating my ability to merge technical and creative skills effectively.'
+    // },
+    // {
+    //   company: 'The Site Supply Company',
+    //   role: 'Graphic Designer',
+    //   startDate: 'Apr - 2008',
+    //   endDate: 'Nov - 2008',
+    //   description:
+    //     'I was employed at The Site Supply Company as a Graphic Designer, where I played a key role in supporting the company’s creative, production, and occasional technical needs.' +
+    //     '\n' +
+    //     'My responsibilities included:' +
+    //     '\n' +
+    //     'Designing and preparing proofs for customer approval.\n' +
+    //     'Creating or recreating artwork tailored to client specifications for use by the in-house printing department. Developing company promotional materials, including CD covers, posters, and other marketing assets Assisting with small IT tasks, such as troubleshooting minor technical issues and providing basic support to colleagues.' +
+    //     '\n' +
+    //     'This role required a strong eye for detail, effective communication with clients, and the ability to manage multiple design projects while providing occasional technical support in a fast-paced environment.'
+    // },
+    // {
+    //   company: 'MSL Legal Expenses Ltd',
+    //   role: 'Office Junior',
+    //   startDate: 'Nov - 2006',
+    //   endDate: 'March - 2008',
+    //   description:
+    //     'I began my career at MSL Legal Expenses as the Office Junior in the In-House Department.\n' +
+    //     'During this time, I identified opportunities to improve efficiency and took the initiative to create macros and develop automated software that streamlined the scanning and filing processes. This innovation significantly reduced manual workloads and improved overall accuracy.' +
+    //     '\n' +
+    //     'My responsibilities included:' +
+    //     '\n' +
+    //     'Filing, scanning, copying, and faxing documents.\n' +
+    //     'Conducting file traces and file preparation.\n' +
+    //     'Communicating with brokers and third-party insurers to locate and trace references.\n' +
+    //     'I was later promoted to the role of Claims Technician, where I took on more advanced responsibilities, including:' +
+    //     '\n' +
+    //     'Recovering back-hire funds from insurance companies. Requesting and gathering information from clients, third-party insurers, and witnesses. Drafting and sending professional correspondence via letters, faxes, and emails. Managing a high volume of phone communications to support case resolutions. This progression reflects my ability to adapt, innovate, and take ownership of tasks in a dynamic and fast-paced environment.'
+    // }
   ],
   skills: [
     'TypeScript, JavaScript, Node, PHP Laravel, Go, Java',
