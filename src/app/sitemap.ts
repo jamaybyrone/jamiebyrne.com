@@ -25,6 +25,18 @@ function MainSitePages(lastBuild: Date): MetadataRoute.Sitemap {
       lastModified: lastBuild,
       changeFrequency: 'yearly',
       priority: 1
+    },
+    {
+      url: `${HTTPS_WWW_MAIN_DOMAIN}/me`,
+      lastModified: lastBuild,
+      changeFrequency: 'yearly',
+      priority: 1
+    },
+    {
+      url: `${HTTPS_WWW_MAIN_DOMAIN}/rex`,
+      lastModified: lastBuild,
+      changeFrequency: 'yearly',
+      priority: 1
     }
   ]
 }
