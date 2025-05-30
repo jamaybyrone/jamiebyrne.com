@@ -3,7 +3,7 @@ import { OWNER_NAME } from '@/shared/consts/html'
 import { HTTPS_WWW_MAIN_DOMAIN } from '@/shared/consts/url'
 
 const pageBody: string =
-  'There is nothing more beautiful than the night sky and when you&apos;re out in the peak district hills you can get some pretty spectacular glimpses of the great beyond. On more than one occasion I have set off on a moonless night out into the bleak, cold and dark to capture some beauty in the peaks.'
+  'There is nothing more beautiful than the night sky and when you\'re out in the peak district hills you can get some pretty spectacular glimpses of the great beyond. On more than one occasion I have set off on a moonless night out into the bleak, cold and dark to capture some beauty in the peaks.'
 
 export const data: galleryDataType = {
   pageImage: '/home-4.avif',
