@@ -48,7 +48,9 @@ function OrientationRow({
   return (
     <Box textAlign="center">
       {data.length > 2 && (
-        <Typography variant="body1" color="secondary">Filter by Orientation</Typography>
+        <Typography variant="body1" color="secondary">
+          Filter by Orientation
+        </Typography>
       )}
       {data.length > 2 &&
         data.map((orientation, index) => {

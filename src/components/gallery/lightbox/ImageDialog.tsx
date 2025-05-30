@@ -47,7 +47,9 @@ export function ImageDialog({
     IconButtonPropsSizeOverrides
   > = matchesSM ? 'small' : 'large'
   const itemStyle = styles(matchesSM)
-
+  if (!image) {
+    return null
+  }
   return (
     <Modal open={open} onClose={onClose} aria-label="Enlarged image">
       <Container maxWidth={false}>
