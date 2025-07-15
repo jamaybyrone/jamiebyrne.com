@@ -51,7 +51,7 @@ function wrapText(
   return lines
 }
 
-export async function generateCV(cvData: CVType) {
+export async function generateCV(cvData: CVType, showMobileNumber:boolean, mobileNumber) {
   const pdfDoc = await PDFDocument.create()
   const pageWidth = 600
   const pageHeight = 800
@@ -115,6 +115,10 @@ export async function generateCV(cvData: CVType) {
       label: 'Email:',
       text: cvData.email
     },
+    ...(showMobileNumber ? [{
+      label: 'Mobile:',
+      text: mobileNumber
+    }] : []),
     {
       label: 'GitHub:',
       text: cvData.githubUrl
