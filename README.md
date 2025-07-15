@@ -27,7 +27,7 @@ This is the official repository for [jamiebyrne.com](https://www.jamiebyrne.com)
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/jamiebyrne.com.git
+git clone https://github.com/jamaybyrone/jamiebyrne.com.git
 cd jamiebyrne.com
 ```
 2. Install dependencies
