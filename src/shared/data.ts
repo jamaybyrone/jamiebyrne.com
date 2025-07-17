@@ -52,7 +52,7 @@ export const CVData = {
       company: 'CDL Software',
       role: 'Senior Web Developer',
       startDate: 'Feb - 2017',
-      endDate: 'Jan - 2024',
+      endDate: 'Feb - 2022',
       description:
         'I was promoted to Senior Web Developer at CDL, where I took on greater responsibilities, including leading numerous projects and contributing to the company’s technical evolution. Over the years, I worked on a variety of innovative initiatives, including iOS and React Native development, delivering seamless cross-platform applications.' +
         '\n' +
