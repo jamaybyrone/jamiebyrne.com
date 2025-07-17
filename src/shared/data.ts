@@ -97,7 +97,7 @@ export const CVData = {
     }
   ],
   skills: [
-    'TS, JS, Node, PHP, Go, Java',
+    'TS, JS, Node, PHP (Laravel), Go, Java',
     'JSP, JSTL, Jquery, HTML',
     'React,, MUI, Tailwind, SCSS, LESS, CSS',
     'Express, NextJS',
@@ -106,12 +106,18 @@ export const CVData = {
     'Jest, Cypress, Sonar, React Testing Library, Playwright',
     'Gitlab, Github',
     'CI/CD, Jenkins, Terraform',
-    'AWS, Lambda, API Gateway, DynamoDB,  Cloudfront',
+    'Lambda, API Gateway, DynamoDB,  Cloudfront',
     'Edge, AppConfig, S3,  Cognito',
     'Step Functions, SNS, SQS, Event Bridge',
     'Docker, Kubernetes',
     'MySql, PostgreSQL, MonogoDB, DynamoDB',
     'AWS, GCP, Azure, Vercel, Railway'
+  ],
+  softSkills: [
+    'Training, Mentoring, Interviews, Leadership',
+    'Software Architecture, Optimization, Code Reviews, Pipelines',
+    'Agile, Scrum, Kanban',
+    'Figma, Jira, Trello, ServiceNow, SonarQube, Dynatrace'
   ]
 }
 

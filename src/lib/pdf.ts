@@ -17,6 +17,7 @@ export interface CVType {
   thumbnailUrl: string
   workExperience: WorkExperience[]
   skills: string[]
+  softSkills: string[]
 }
 function sanitizeText(text: string): string {
   return text.replace(/\r/g, '')
@@ -149,7 +150,32 @@ export async function generateCV(cvData: CVType, showMobileNumber:boolean, mobil
     contactY -= 30
   })
 
-  page.drawText('Skills', {
+  page.drawText('Soft Skills', {
+    x: marginX,
+    y: contentY,
+    size: 16,
+    font: boldFont,
+    color: black
+  })
+  contentY -= 20
+
+  cvData.softSkills.forEach((skill, index) => {
+    if (contentY <= 50) {
+      createNewPage()
+    }
+    page.drawText(`• ${skill}`, {
+      x: marginX,
+      y: contentY,
+      size: 12,
+      font,
+      color: black
+    })
+    contentY -= 15
+  })
+  contentY -= 20
+  contentY -= 20
+
+  page.drawText('Tech Skills', {
     x: marginX,
     y: contentY,
     size: 16,
@@ -173,7 +199,7 @@ export async function generateCV(cvData: CVType, showMobileNumber:boolean, mobil
   })
 
   contentY -= 20
-
+  contentY -= 20
   page.drawText('Experience', {
     x: marginX,
     y: contentY,
