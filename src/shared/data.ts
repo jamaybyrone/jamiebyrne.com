@@ -31,7 +31,7 @@ export const CVData = {
         'I also worked extensively with NextJS and NextAuth, sharing knowledge and expertise to support colleagues. Additionally, I contributed to the successful implementation of WorldPay 3DS2, enhancing the company’s payment processing capabilities.'
     },
     {
-      company: 'CDL Software',
+      company: 'CDL Software (10 years total, breakdown below)',
       role: 'Lead Software Engineer',
       startDate: 'Feb - 2022',
       endDate: 'Jan - 2024',
@@ -51,7 +51,7 @@ export const CVData = {
     {
       company: 'CDL Software',
       role: 'Senior Web Developer',
-      startDate: 'Feb - 2022',
+      startDate: 'Feb - 2017',
       endDate: 'Jan - 2024',
       description:
         'I was promoted to Senior Web Developer at CDL, where I took on greater responsibilities, including leading numerous projects and contributing to the company’s technical evolution. Over the years, I worked on a variety of innovative initiatives, including iOS and React Native development, delivering seamless cross-platform applications.' +
