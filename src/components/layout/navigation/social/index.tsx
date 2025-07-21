@@ -17,14 +17,14 @@ export const Social = () => {
       >
         <GitHubIcon />
       </Link>
-      <Link
-        href={LINKEDIN_URL}
-        target={'_blank'}
-        style={{ margin: '5px' }}
-        aria-label="LinkedIn"
-      >
-        <LinkedInIcon />
-      </Link>
+      {/*<Link*/}
+      {/*  href={LINKEDIN_URL}*/}
+      {/*  target={'_blank'}*/}
+      {/*  style={{ margin: '5px' }}*/}
+      {/*  aria-label="LinkedIn"*/}
+      {/*>*/}
+      {/*  <LinkedInIcon />*/}
+      {/*</Link>*/}
       <Link
         href={'/api/cv'}
         target={'_blank'}
