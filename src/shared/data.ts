@@ -1,12 +1,13 @@
-import { GIT_HUB_URL } from '@/shared/consts/url'
+import { GIT_HUB_URL, HTTPS_WWW_MAIN_DOMAIN } from '@/shared/consts/url'
 
 export const CVData = {
   name: 'Jamie Byrne',
   email: 'jamie@jamiebyrne.com',
   address: 'England, United Kingdom',
   githubUrl: GIT_HUB_URL,
-  websiteUrl: 'https://www.jamiebyrne.com',
+  websiteUrl: HTTPS_WWW_MAIN_DOMAIN,
   thumbnailUrl: 'https://avatars.githubusercontent.com/u/117583938?v=4',
+  HDRULGithub: 'https://github.com/JamieByrneHDRUK',
   workExperience: [
     {
       company: 'Health Data Research UK (HDR UK) · FTC',
@@ -18,7 +19,9 @@ export const CVData = {
         '\n' +
         'As part of my role, I have implemented various SEO enhancements and performance optimisations to improve the application’s discoverability and efficiency. Additionally, I am leading a project focused on dementia research data trials, ensuring the delivery of a robust and effective solution to support critical research initiatives.' +
         '\n' +
-        'I have also contributed to other functional applications within the organisation, including those written in Go, while ensuring seamless integration and high performance across the platform.'
+        'I have also contributed to other functional applications within the organisation, including those written in Go, while ensuring seamless integration and high performance across the platform.' +
+       '\n' +
+        'HDRUK Github account: https://github.com/JamieByrneHDRUK'
     },
     {
       company: 'Pets At Home',
@@ -104,8 +107,7 @@ export const CVData = {
     'Gulp, Grunt, Webpack, Babel',
     'Maven, SpringBoot',
     'Jest, Cypress, Sonar, React Testing Library, Playwright',
-    'Gitlab, Github',
-    'CI/CD, Jenkins, Terraform',
+    'Gitlab, Github, CI/CD, Jenkins, Terraform',
     'Lambda, API Gateway, DynamoDB,  Cloudfront',
     'Edge, AppConfig, S3,  Cognito',
     'Step Functions, SNS, SQS, Event Bridge',

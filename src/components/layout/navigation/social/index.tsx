@@ -1,7 +1,6 @@
 import Link from 'next/link'
-import { GIT_HUB_URL, LINKEDIN_URL } from '@/shared/consts/url'
+import { GIT_HUB_URL } from '@/shared/consts/url'
 import GitHubIcon from '@mui/icons-material/GitHub'
-import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import ArticleIcon from '@mui/icons-material/Article'
 import Paper from '@mui/material/Paper'
 import React from 'react'

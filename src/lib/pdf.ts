@@ -13,6 +13,7 @@ export interface CVType {
   email: string
   address: string
   githubUrl: string
+  HDRULGithub: string
   websiteUrl: string
   thumbnailUrl: string
   workExperience: WorkExperience[]
