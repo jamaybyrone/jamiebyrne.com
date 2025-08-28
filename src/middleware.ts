@@ -17,7 +17,7 @@ export function middleware(request: NextRequest) {
   const dirtyBotPaths = [
     '.asp',
     '.php',
-    'wp',
+    'wp-',
     '.env',
     '.well-known',
     '.git',

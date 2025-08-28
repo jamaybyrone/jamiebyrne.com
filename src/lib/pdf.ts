@@ -126,6 +126,10 @@ export async function generateCV(cvData: CVType, showMobileNumber:boolean, mobil
       text: cvData.githubUrl
     },
     {
+      label: 'GitHub HDR:',
+      text: cvData.HDRULGithub
+    },
+    {
       label: 'Website:',
       text: cvData.websiteUrl
     }
