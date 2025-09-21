@@ -35,7 +35,7 @@ export async function GET(req: NextRequest): Promise<Response> {
     }
 
 
-    const pdfBytes = await generateCV(cvData, showMobileNumber, CONTACT_NUMBER)
+    const pdfBytes = await generateCV(cvData, showMobileNumber, CONTACT_NUMBER) as unknown as BodyInit
 
     return new Response(pdfBytes, {
       status: 200,

@@ -6,7 +6,7 @@ export const data: defaultDataType = {
   meta: {
     title: `Rex - ${OWNER_NAME} Nature & Landscape Photography`,
     description:
-      'Rex' +
+      'Rex ' +
       OWNER_NAME +
       ' Macclesfield based photographer, nature photography, pet photography, landscape photography',
     image: `${HTTPS_WWW_MAIN_DOMAIN}/images/rex/FB_IMG_1555168401933.jpg`,
