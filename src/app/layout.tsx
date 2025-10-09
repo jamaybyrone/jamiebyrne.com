@@ -25,6 +25,7 @@ export default async function RootLayout({
   return (
     <ThemeRegistry>
       <html lang={NEXT_PUBLIC_LOCALE} style={{ height: '100%' }}>
+      <Script src={'https://web.dev.hdruk.cloud/api/test'}/>
         <body>
           <Navigation />
           <main id={mainContent} tabIndex={0}>
