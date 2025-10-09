@@ -32,19 +32,19 @@ if (NODE_ENV === 'development') {
   }
 } else {
   nextConfig = {
-    // async headers() {
-    //   return [
-    //     {
-    //       source: '/:path*',
-    //       headers: [
-    //         {
-    //           key: 'Content-Security-Policy',
-    //           value: cspHeader.replace(/\n/g, '')
-    //         }
-    //       ]
-    //     }
-    //   ]
-    // },
+    async headers() {
+      return [
+        {
+          source: '/:path*',
+          headers: [
+            {
+              key: 'Content-Security-Policy',
+              value: cspHeader.replace(/\n/g, '')
+            }
+          ]
+        }
+      ]
+    },
     ...common
   }
 }
