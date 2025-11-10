@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const {NODE_ENV} = process.env
 const cspHeader = `
-    default-src 'self' *.google-analytics.com;
+    default-src 'self' *.google-analytics.com ;
     script-src 'self' 'unsafe-eval' 'unsafe-inline' *.dev.hdruk.cloud esm.sh;
+    connect-sr 'self esm.sh;
+    font-src 'self fonts.googleapis.com;
     style-src 'self' 'unsafe-inline' fonts.googleapis.com;
     img-src 'self' blob: data: *.prod.hdruk.cloud;
     font-src 'self';
