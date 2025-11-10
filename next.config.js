@@ -2,7 +2,7 @@
 const {NODE_ENV} = process.env
 const cspHeader = `
     default-src 'self' *.google-analytics.com;
-    script-src 'self' 'unsafe-eval' 'unsafe-inline' *.dev.hdruk.cloud esm.sh/*;
+    script-src 'self' 'unsafe-eval' 'unsafe-inline' *.dev.hdruk.cloud https://esm.sh/*;
     style-src 'self' 'unsafe-inline';
     img-src 'self' blob: data:;
     font-src 'self';
