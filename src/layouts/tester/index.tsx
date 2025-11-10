@@ -21,7 +21,7 @@ export const Layout = () => {
           <Script
             type="module"
             crossOrigin="anonymous"
-            src="https://web.dev.hdruk.cloud/api/widget/120-2"
+            src="https://web.dev.hdruk.cloud/api/widget/120-3"
           />
         </Grid>
       </Grid>
