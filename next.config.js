@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const {NODE_ENV} = process.env
 const cspHeader = `
-    default-src 'self' *.google-analytics.com;
+    default-src 'self' *.google-analytics.com *.dev.hdruk.cloud;
     script-src 'self' 'unsafe-eval' 'unsafe-inline';
     style-src 'self' 'unsafe-inline';
     img-src 'self' blob: data:;
