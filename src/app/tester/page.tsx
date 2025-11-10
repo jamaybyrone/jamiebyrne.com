@@ -3,7 +3,7 @@ import meta from '@/lib/meta'
 import { data } from './data'
 import { viewPort } from '@/shared/consts/meta'
 
-import { Layout } from '@/layouts/rex'
+import { Layout } from '@/layouts/tester'
 
 export const viewport: Viewport = viewPort
 export const metadata = meta(data.meta, {
