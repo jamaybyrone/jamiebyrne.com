@@ -8,7 +8,7 @@ const cspHeader = `
     font-src 'self' fonts.gstatic.com;
     object-src 'none';
     base-uri 'self';
-    frame-src 'self';
+    frame-src 'self' web.dev.hdruk.cloud;
     form-action 'self';
     frame-ancestors 'none';
     upgrade-insecure-requests;
