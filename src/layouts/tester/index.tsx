@@ -17,7 +17,7 @@ export const Layout = () => {
           <Typography variant="body1" color="secondary" mb={2}>
             This is a test
           </Typography>
-          <div id="replaceMe" />
+          <div id="HDRGatewayWidget" />
           <Script
             type="module"
             crossOrigin="anonymous"
