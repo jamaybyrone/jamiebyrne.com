@@ -23,19 +23,17 @@ export async function GET(req: NextRequest): Promise<Response> {
 
   const showMobileNumber = CV_PASSWORD === password
 
-
-
   try {
     const cvData: CVType = CVData
-    if(showFull){
-      cvData.workExperience = [
-        ...cvData.workExperience,
-        ...fullWorkExp
-      ]
+    if (showFull) {
+      cvData.workExperience = [...cvData.workExperience, ...fullWorkExp]
     }
 
-
-    const pdfBytes = await generateCV(cvData, showMobileNumber, CONTACT_NUMBER) as unknown as BodyInit
+    const pdfBytes = (await generateCV(
+      cvData,
+      showMobileNumber,
+      CONTACT_NUMBER
+    )) as unknown as BodyInit
 
     return new Response(pdfBytes, {
       status: 200,
