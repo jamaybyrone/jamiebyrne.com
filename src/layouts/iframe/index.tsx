@@ -1,7 +1,6 @@
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
-import Script from 'next/script'
 
 export const Layout = () => {
   return (
@@ -13,21 +12,18 @@ export const Layout = () => {
           </Typography>
         </Grid>
 
-        <Grid size={{ md: 12 }} component="article">
-          <Typography variant="body1" color="secondary" mb={2}>
-            This is a test
-          </Typography>
+        <Grid size={{ xs: 12 }} component="article">
 
-          <iframe
-            id="ALovelyExample"
-            title="Data Sets"
-            width="600"
-            height="600"
-            src="https://web.dev.hdruk.cloud/widgets/120-3">
-          </iframe>
-
-
-        </Grid>
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
+            <iframe
+              id="ALovelyExample"
+              title="Data Sets"
+              src="https://web.dev.hdruk.cloud/widgets/120-3"
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+              allowFullScreen
+            ></iframe>
+          </div>
+           </Grid>
       </Grid>
     </Container>
   )
