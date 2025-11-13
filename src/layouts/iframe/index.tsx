@@ -14,9 +14,8 @@ export const Layout = () => {
 
         <Grid size={{ xs: 12 }} component="article">
 
-          <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
+          <div style={{ position: 'relative', width: '600px', height: '600px', maxWidth: '100%'}}>
             <iframe
-              id="ALovelyExample"
               title="Data Sets"
               src="https://web.dev.hdruk.cloud/widgets/120-3"
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
