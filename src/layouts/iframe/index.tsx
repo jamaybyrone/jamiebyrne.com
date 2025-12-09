@@ -23,7 +23,7 @@ export const Layout = () => {
           >
             <iframe
               title="HDR Gateway Widget"
-              src="https://web.preprod.hdruk.cloud/api/widget/133-1"
+              src="https://web.preprod.hdruk.cloud/widget/133-1"
               style={{
                 position: 'absolute',
                 top: 0,
