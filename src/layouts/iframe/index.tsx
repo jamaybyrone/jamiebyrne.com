@@ -32,7 +32,7 @@ export const Layout = () => {
                 height: '100%',
                 border: 0
               }}
-              allowFullScreen=""
+              allowFullScreen={true}
             ></iframe>
           </div>
         </Grid>
