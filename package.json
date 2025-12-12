@@ -22,7 +22,7 @@
     "@types/js-cookie": "^3.0.6",
     "@types/node": "24.5.2",
     "js-cookie": "3.0.5",
-    "next": "^15.5.7",
+    "next": "^15.5.9",
     "next-rate-limit": "^0.0.3",
     "pdf-lib": "^1.17.1",
     "react": "19.1.1",
