@@ -10,12 +10,27 @@ export const CVData = {
   HDRULGithub: 'https://github.com/JamieByrneHDRUK',
   workExperience: [
     {
+      company: 'Health Data Research UK (HDR UK)',
+      role: 'Senior Full Stack Developer + Digital Architect',
+      startDate: 'November - 2025',
+      endDate: 'Present',
+      description:
+        'Employed by HDR UK as a Senior Full Stack Developer and Digital Architect, combining hands-on engineering with architectural leadership across multiple production platforms and applications.' +
+        '\n' +
+        'I lead system design and technical decision-making, building and maintaining scalable services using Go, PHP (Laravel), Node.js, Express, React, TypeScript, and Next.js within GCP-based infrastructure.' +
+        '\n' +
+        'In addition to full stack delivery, I create technical proofs of concept, define architectural standards, and guide implementation to ensure performance, scalability, and long-term maintainability across the organisation’s digital ecosystem.' +
+        '\n' +
+        '\n' +
+        'HDRUK Github account: https://github.com/JamieByrneHDRUK'
+    },
+    {
       company: 'Health Data Research UK (HDR UK) · FTC',
       role: 'Senior Research Engineer (Full Stack Dev)',
       startDate: 'September - 2024',
-      endDate: 'Present',
+      endDate: 'November - 2025',
       description:
-        'Currently employed on a Fixed Term Contract (FTC) by HDR UK, focusing on open-source software development. My primary work is on the relaunch Gateway 2 Search application, which utilises Elasticsearch and is built with NextJS on the front end and a PHP Laravel back end running in Kubernetes.' +
+        'Was employed on a Fixed Term Contract (FTC) by HDR UK, focusing on open-source software development. My primary work is on the relaunch Gateway 2 Search application, which utilises Elasticsearch and is built with NextJS on the front end and a PHP Laravel back end running in Kubernetes.' +
         '\n' +
         'As part of my role, I have implemented various SEO enhancements and performance optimisations to improve the application’s discoverability and efficiency. Additionally, I am leading a project focused on dementia research data trials, ensuring the delivery of a robust and effective solution to support critical research initiatives.' +
         '\n' +
