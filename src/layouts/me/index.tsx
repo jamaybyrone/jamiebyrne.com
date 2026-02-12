@@ -94,7 +94,7 @@ export const Layout = () => {
 
             <Typography variant="body1" color="secondary" mt={2}>
               While I’ve stepped away from photos, I’m very much still working —
-              as a <strong>full stack developer</strong>. My background spans
+              as a <strong>Senior Full Stack Developer + Digital Architect</strong>. My background spans
               frontend and backend development, with experience building
               responsive, accessible, and high-performance applications across
               modern tech stacks. If you’re here looking for code, not cameras —
