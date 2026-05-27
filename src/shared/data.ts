@@ -10,17 +10,32 @@ export const CVData = {
   HDRULGithub: 'https://github.com/JamieByrneHDRUK',
   workExperience: [
     {
+      company: 'Chemist4U',
+      role: 'Technical Lead',
+      startDate: 'May - 2026',
+      endDate: 'Present',
+      description:
+        ''
+    },
+    {
       company: 'Health Data Research UK (HDR UK)',
       role: 'Senior Full Stack Developer + Digital Architect',
       startDate: 'November - 2025',
-      endDate: 'Present',
+      endDate: 'May - 2026',
       description:
-        'Employed by HDR UK as a Senior Full Stack Developer and Digital Architect, combining hands-on engineering with architectural leadership across multiple production platforms and applications.' +
+        'Employed by HDR UK as a Senior Full Stack Developer and Digital Architect, combining hands-on engineering with architectural leadership across multiple production platforms and applications.\n' +
         '\n' +
-        'I lead system design and technical decision-making, building and maintaining scalable services using Go, PHP (Laravel), Node.js, Express, React, TypeScript, and Next.js within GCP-based infrastructure.' +
+        'I lead system design and technical decision-making, building and maintaining scalable services using Go, PHP (Laravel), Node.js, Express, React, TypeScript, and Next.js within GCP-based infrastructure.\n' +
         '\n' +
-        'In addition to full stack delivery, I create technical proofs of concept, define architectural standards, and guide implementation to ensure performance, scalability, and long-term maintainability across the organisation’s digital ecosystem.' +
+        'In addition to full stack delivery, I create technical proofs of concept, define architectural standards, and guide implementation to ensure performance, scalability, and long-term maintainability across the organisation’s digital ecosystem.\n' +
         '\n' +
+        'One of the standout projects I led was the design and implementation of a Widgets system, enabling data custodians to seamlessly showcase their datasets, collections, and publications on their own websites via the gateway.\n' +
+        '\n' +
+        'I architected the solution end-to-end, including defining the data flow and developing an initial proof of concept. The system was built with flexibility in mind—supporting both iframe-based embeds and modern frameworks such as React—ensuring it remained scalable and future-proof.\n' +
+        '\n' +
+        'Users could configure widgets through a simple interface by selecting the datasets, collections, and publications they wanted to display. The platform would then generate secure, ready-to-use embed code that could be easily integrated into their websites.\n' +
+        '\n' +
+        'This approach significantly reduced costs for users by removing the need for custom development, while also increasing visibility and reach for the gateway platform as a whole.' +
         '\n' +
         'HDRUK Github account: https://github.com/JamieByrneHDRUK'
     },
